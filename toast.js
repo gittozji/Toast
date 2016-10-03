@@ -1,9 +1,9 @@
-var queue = new Array();//Ê¹ÓÃÒ»¸ö¶ÓÁĞÀ´´æ·ÅtoastĞÅÏ¢
-var flag = false;//ÎªÁËÊ¹doLoopÍ¬Ò»Ê±¼ä¶ÎÖ»Ò»¸öÊµÀı¹¤×÷
+var queue = new Array();//ä½¿ç”¨ä¸€ä¸ªé˜Ÿåˆ—æ¥å­˜æ”¾toastä¿¡æ¯
+var flag = false;//ä¸ºäº†ä½¿doLoopåŒä¸€æ—¶é—´æ®µåªä¸€ä¸ªå®ä¾‹å·¥ä½œ
 
 function showToast(hint){
 	
-		queue.unshift(hint);//ĞÅÏ¢Èë¶ÓÁĞ
+		queue.unshift(hint);//ä¿¡æ¯å…¥é˜Ÿåˆ—
 		doLoop();
     
 }
