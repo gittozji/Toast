@@ -23,7 +23,9 @@
         $(document).ready(function(){
 
             $("#send").click(function() {
+				alert("fsfds");
                 showToast("我是一个Toast");
+				alert("nnnn");
             });
 
         });
@@ -41,6 +43,6 @@
     </script>
 </head>
 <body>
-    <button id="send">Toast</button>
+    <button id="send" onclick="showToast('ddd')">Toast</button>
 </body>
 </html>
